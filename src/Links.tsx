@@ -56,7 +56,7 @@ function Links() {
           })
         ) : (
           <div className="flex justify-center">
-            <p>No links copied...</p>
+            <p>No links copied. Use the hotkey CTRL+Z...</p>
           </div>
         )}
       </div>
