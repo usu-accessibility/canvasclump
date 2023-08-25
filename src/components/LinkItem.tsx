@@ -52,7 +52,7 @@ function LinkItem({
           target="_blank"
           className="text-blue-600 underline"
         >
-          Link to Canvas page
+          {savedLink.page.split("folder/")[1].replaceAll(/%20/g, " ")}
         </a>
         <div className="flex items-center gap-2" ref={animationParent}>
           <Copy
