@@ -7,7 +7,7 @@ Canvasclump is a chrome extension that allows users to select links on canvas fi
 Clone the repository, open it, and run:
 
 ```bash
-	npm run build
+npm run build
 ```
 
 Open the dist folder in chrome as a unpacked extension.
